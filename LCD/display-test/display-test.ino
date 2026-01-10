@@ -26,7 +26,7 @@ void loop(){
   tft.setTextColor(ST77XX_GREEN);
   tft.setTextSize(1);
   tft.setTextWrap(true);
-  sprintf(buffer, "%dx%d\n");
+  sprintf(buffer, "%dx%d\n", width, height);
   tft.print(buffer);
   delay(500);
 
